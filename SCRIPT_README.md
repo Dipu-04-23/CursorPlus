@@ -6,6 +6,16 @@ A simple script to enhance Claude 3.7 in Cursor by:
 2. **Setting thinking level** to "high" for more detailed reasoning
 3. **Adding custom UI styling** to distinguish the enhanced model
 
+## How It Works
+
+The script uses precise string matching to find and modify specific functions:
+
+- **Token limit**: Uses multiple patterns and fallbacks to find `getEffectiveTokenLimit` function
+- **Thinking level**: Searches for `getModeThinkingLevel(e)`
+- **UI styling**: Searches for `_serializableTitle:()=>"claude-3.7-sonnet"}`
+
+This approach provides reliable matches across different Cursor versions, even when the code has been minified or slightly modified.
+
 ## Usage
 
 ### Basic Usage
@@ -46,3 +56,4 @@ python hack_claude.py --token-mode all_models
 - Creates backups before making changes
 - Changes are lost when Cursor updates
 - Client-side changes only - actual behavior still depends on Anthropic's API
+- If you encounter issues, try using a backup file with `--file path/to/backup.js`
